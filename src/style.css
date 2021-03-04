@@ -1,0 +1,68 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    font-family: Verdana, sans-serif;;
+    font-size: 16px;
+    background-color: #222A59;
+    color: #F2F2F2;
+}
+
+#intro {
+  margin: 12px;
+}
+
+#web-dev {
+  color: #737373;
+}
+
+.logo {
+  width: 4em;
+}
+
+.copyright {
+  font-size: 6px;
+  margin: 3px 0;
+}
+
+.nav-img {
+  margin: 4px 3px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.aside-img {
+  width: 2em;
+  height: 2em;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 6em;
+  }
+
+  .nav-img {
+    margin: 10px;
+    width: 3em;
+    height: 3em;
+  }
+
+  .aside-img {
+    margin: 5px 10px;
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 14px;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 14px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
