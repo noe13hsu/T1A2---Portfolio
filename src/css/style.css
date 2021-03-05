@@ -7,6 +7,10 @@ html, body {
   color: #F2F2F2;
 }
 
+#top {
+  background-color: #222A59;
+}
+
 .title {
 color: #9DC8C8;
 font-size: 4em;
@@ -54,7 +58,7 @@ color:#741BF2;
 
 .copyright {
 font-size: 10px;
-margin: 3px 6.4em;
+margin: 0 0 0 6.4em;
 }
 
 .nav-img {
@@ -100,6 +104,10 @@ margin: 3px 6.4em;
 
 #description1, #description2, #description3 {
   margin: 1em 6em 4em 0;
+}
+
+#uparrow {
+  width: 100px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
