@@ -42,11 +42,12 @@ footer {
 
 @media screen and (min-width: 768px) {
     body {
-        grid-template-columns: 1fr 12fr 1fr;
-        grid-template-rows: 6em auto 1em;
-        grid-template-areas: "nav  header  aside"
-                             "nav  main    aside"
-                             "nav  footer  footer";
+        grid-template-columns: 1fr 5fr 5fr 1fr;
+        grid-template-rows: 6em min-content auto 1em;
+        grid-template-areas: "nav  header  header  aside"
+                             "nav  main    main    aside"
+                             "nav  main    main    aside"
+                             "nav  footer  footer  footer";
         grid-gap: 2em;
         margin: 1em 0 1em 1em;
         justify-content: center;

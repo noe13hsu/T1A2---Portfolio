@@ -7,37 +7,72 @@
     <title>Portfolio N..</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="/src/css/grid.css">
+    <link rel="stylesheet" href="/src/css/grid2.css">
 </head>
 <body>
-    <nav class="#">
-        <div>
-            <a href="/src/pages/index.html"><img class="nav-img" src="/src/images/Nav/Home/android-chrome-192x192.png"></a>
-            <a href="/src/pages/portfolio.html"><img class="nav-img" src="/src/images/Nav/Portfolio/android-chrome-192x192.png"></a>
-            <a href="/src/pages/blog.html"><img class="nav-img" src="/src/images/Nav/Blog/android-chrome-192x192.png"></a>
-            <a href="/src/pages/contact.html"><img class="nav-img" src="/src/images/Nav/Contact/android-chrome-192x192.png"></a>
-        </div>
-    </nav>
-
-    <header>
-        <img class="logo" src="/src/images/Logo/favicon_navy/android-chrome-512x512.png" alt="logo">
-    </header>
-
-    <aside class="#">
-        <div>
-            <a href="https://www.facebook.com/noe.hsu"><img class="aside-img" src="/src/images/Aside/logo-facebook.svg"></a>
-            <a href="https://www.linkedin.com/in/noe-hsu-7828a4208/"><img class="aside-img" src="/src/images/Aside/logo-linkedin.svg"></a>
-            <a href="https://github.com/noe13hsu"><img class="aside-img" src="/src/images/Aside/logo-github.svg"></a>
-            <a href="https://codepen.io/noe13hsu"><img class="aside-img" src="/src/images/Aside/logo-codepen.svg"></a>
-        </div>
-    </aside>
-
     <main>
-        <h1 class="title">Portfolio</h1>
+        <header class="header">
+                <img class="logo" src="/src/images/Logo/favicon_navy/android-chrome-512x512.png" alt="logo">
+        </header>
         
-    </main>
+        <nav class="nav-bar">
+                <a href="/src/pages/index.html"><img class="nav-img" src="/src/images/Nav/Home/android-chrome-192x192.png"></a>
+                <a href="/src/pages/portfolio.html"><img class="nav-img" src="/src/images/Nav/Portfolio/android-chrome-192x192.png"></a>
+                <a href="/src/pages/blog.html"><img class="nav-img" src="/src/images/Nav/Blog/android-chrome-192x192.png"></a>
+                <a href="/src/pages/contact.html"><img class="nav-img" src="/src/images/Nav/Contact/android-chrome-192x192.png"></a>
+        </nav>
+        
+        <section class="intro">
+            <h1 class="title">Portfolio.</h1>
+            <p>After learning the basics of HTML, CSS and JavaScript on Pluralsight and Scrimba,</p>
+            <p>I found a YouTube video uploaded by <a class="youtuber" href="https://www.youtube.com/user/GameDevLessons">Chris DeLeon</a>.</p> 
+            <p>I was amazed by his coding ability to create the old snake game in less than 5 minutes, so I followed his other videos on Udemy and made a tennis game using HTML Canvas and JavaScript.</p>
+        </section>
 
-    <footer class="copyright">
-        &copy; All rights reserved.
-    </footer>
+        <section id="video1">
+            <video class="portfolio-video" controls>
+                <source src="/src/videos/tennisgame.mov">
+                Video tag not supported....
+            </video>
+        </section>
+
+        <section id="description1">
+                <p>I like animation and games so I was very happy to know HTML and JavaScript are able to help me create both.</p>
+        </section>
+
+        <section id="video2">
+            <video class="portfolio-video" controls>
+                <source src="/src/videos/mousedetection.mov">
+                Video tag not supported....
+            </video>
+        </section>
+
+        <section id="description2">
+            <p>I like animation and games so I was very happy to know HTML and JavaScript are able to help me create both.</p>
+        </section>
+
+        <section id="video3">
+            <video class="portfolio-video" controls>
+                <source src="/src/videos/collision.mov">
+                Video tag not supported....
+            </video>
+        </section>
+
+        <section id="description3">
+            <p>I like animation and games so I was very happy to know HTML and JavaScript are able to help me create both.</p>
+        </section>
+         
+        <aside class="side-bar">
+            <div>
+                <a href="https://www.facebook.com/noe.hsu"><img class="aside-img" src="/src/images/Aside/logo-facebook.svg"></a>
+                <a href="https://www.linkedin.com/in/noe-hsu-7828a4208/"><img class="aside-img" src="/src/images/Aside/logo-linkedin.svg"></a>
+                <a href="https://github.com/noe13hsu"><img class="aside-img" src="/src/images/Aside/logo-github.svg"></a>
+                <a href="https://codepen.io/noe13hsu"><img class="aside-img" src="/src/images/Aside/logo-codepen.svg"></a>
+            </div>
+        </aside>
+
+        <footer class="copyright">    
+            &copy; All rights reserved.
+        </footer>
+    </main>
 </html>

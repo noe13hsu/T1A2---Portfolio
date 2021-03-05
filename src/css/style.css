@@ -9,10 +9,15 @@ html, body {
 
 .title {
 color: #9DC8C8;
+font-size: 4em;
+margin-top: 1em;
+text-decoration: underline #737373;
 }
 
 #web-dev {
 color: #737373;
+font-size: 3em;
+margin: 0;
 }
 
 .web-dev-1:hover {
@@ -44,18 +49,18 @@ color:#741BF2;
 }
 
 .logo {
-width: 4em;
+  width: 7em;
 }
 
 .copyright {
-font-size: 6px;
-margin: 3px 0;
+font-size: 10px;
+margin: 3px 6.4em;
 }
 
 .nav-img {
-margin: 4px 3px;
-width: 1.5em;
-height: 1.5em;
+  margin: 8px 3px 8px 3px;
+  width: 3.5em;
+  height: 3.5em;
 }
 
 .nav-img:hover {
@@ -64,8 +69,9 @@ height: 1.5em;
 }
 
 .aside-img {
-width: 2em;
-height: 2em;
+  margin: 6px 3px;
+  width: 3.75em;
+  height: 3.75em;
 }
 
 .aside-img:hover {
@@ -73,34 +79,71 @@ height: 2em;
   animation-duration: 0.5s;
 }
 
-@media screen and (min-width: 768px) {
+.youtuber {
+  color: #9DC8C8;
+  text-decoration: none;
+}
+
+.portfolio-video {
+  width: 250px; 
+  margin: 2em 0;
+  border: 2px solid #737373;
+}
+
+.header {
+  margin: 1em 4em 0 4em;
+}
+
+.intro {
+  margin: 0 4em;
+}
+
+#description1, #description2, #description3 {
+  margin: 1em 6em 4em 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
   .logo {
-    width: 6em;
+    width: 4em;
+    margin-right: 1em;
+  }
+
+  .header {
+    margin: 1em 0;
   }
 
   .nav-img {
-    margin: 10px;
-    width: 3em;
-    height: 3em;
+    margin: 2px 14px 1em 0;
+    width: 2em;
+    height: 2em;
   }
 
   .aside-img {
-    margin: 4px;
-    width: 3.75em;
-    height: 3.75em;
+    margin: 6px 8px 6px 0;
+    width: 2.5em;
+    height: 2.5em;
   }
 
-  h1 {
-    font-size: 40px;
-    margin: 14px;
+  .title {
+    font-size: 3em;
+    margin-top: 0;
   }
 
-  p {
-    font-size: 18px;
-    margin: 14px;
+  .intro {
+    margin: 0;
+  }
+
+  .portfolio-video {
+    width: 250px; 
+    margin: 0;
+  }
+
+  #description1, #description2, #description3 {
+    margin: 0;
   }
 
   .copyright {
-    font-size: 12px;
-  }
+    font-size: 6px;
+    margin: 3px 1em;
+    }
 }
