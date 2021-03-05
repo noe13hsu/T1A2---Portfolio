@@ -102,6 +102,43 @@ margin: 0 0 0 6.4em;
   margin: 0 4em;
 }
 
+#contactbutton {
+  color: #222A59;
+  background-color: #737373;
+  border: none;
+  font-size: 1em;
+  text-decoration: none;
+  width: 8em;
+  padding: 0.5em 0;
+  margin-top: 7.5em;
+  margin-left: 13.5em;
+  text-align: center;
+}
+
+#contactbutton:hover {
+  background-color: #9DC8C8;
+}
+
+.form-component {
+  margin: 3em 8em;
+  height: 1em;  
+}
+
+.nameinput {
+  width: 10em;
+  height: 1.5em;
+  margin-right: 1em;
+}
+.longinput {
+  width: 22em;
+  height: 1.5em;
+}
+
+.textareainput{
+  width: 22em;
+  height: 10em;
+}
+
 #description1, #description2, #description3 {
   margin: 1em 6em 4em 0;
 }

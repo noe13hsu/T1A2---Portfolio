@@ -71,6 +71,12 @@ main {
     align-self: start;
 }
 
+#contactform {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    justify-self: flex-start;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
     main {
         grid-template-columns: 1em 1fr 1em;
