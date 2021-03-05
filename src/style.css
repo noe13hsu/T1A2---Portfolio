@@ -1,38 +1,76 @@
 html, body {
-    margin: 0px;
-    height: 100%;
-    font-family: Verdana, sans-serif;;
-    font-size: 16px;
-    background-color: #222A59;
-    color: #F2F2F2;
+  margin: 0px;
+  height: 100%;
+  font-family: Verdana, sans-serif;;
+  font-size: 16px;
+  background-color: #222A59;
+  color: #F2F2F2;
 }
 
-#intro {
-  margin: 12px;
+#my-name {
+color: #9DC8C8;
 }
 
 #web-dev {
-  color: #737373;
+color: #737373;
+}
+
+.web-dev-1:hover {
+color:#FF0012;
+}
+
+.web-dev-2:hover {
+color:#FF7D00;
+}
+
+.web-dev-3:hover {
+color:#FFD900;
+}
+
+.web-dev-4:hover {
+color:#03A64A;
+}
+
+.web-dev-5:hover {
+color:#1788F2;
+}
+
+.web-dev-6:hover {
+color:#03588C;
+}
+
+.web-dev-7:hover {
+color:#741BF2;
 }
 
 .logo {
-  width: 4em;
+width: 4em;
 }
 
 .copyright {
-  font-size: 6px;
-  margin: 3px 0;
+font-size: 6px;
+margin: 3px 0;
 }
 
 .nav-img {
-  margin: 4px 3px;
-  width: 1.5em;
-  height: 1.5em;
+margin: 4px 3px;
+width: 1.5em;
+height: 1.5em;
+}
+
+.nav-img:hover {
+  animation: headShake;
+  animation-duration: 0.5s;
 }
 
 .aside-img {
-  width: 2em;
-  height: 2em;
+width: 2em;
+height: 2em;
+}
+
+.aside-img:hover {
+  animation: headShake;
+  animation-duration: 0.5s;
 }
 
 @media screen and (min-width: 768px) {
@@ -47,9 +85,9 @@ html, body {
   }
 
   .aside-img {
-    margin: 5px 10px;
-    width: 3.5em;
-    height: 3.5em;
+    margin: 4px;
+    width: 3.75em;
+    height: 3.75em;
   }
 
   h1 {

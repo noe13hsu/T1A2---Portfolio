@@ -42,13 +42,13 @@ footer {
 
 @media screen and (min-width: 768px) {
     body {
-        grid-template-columns: 1fr 8fr 1fr;
+        grid-template-columns: 1fr 12fr 1fr;
         grid-template-rows: 6em auto 1em;
         grid-template-areas: "nav  header  aside"
                              "nav  main    aside"
-                             "nav  footer  aside";
+                             "nav  footer  footer";
         grid-gap: 2em;
-        margin: 1em 1em;
+        margin: 1em 0 1em 1em;
         justify-content: center;
         align-content: flex-start;
         height: 100%;
@@ -65,10 +65,11 @@ footer {
 
     aside {
         justify-self: right;
-        align-self: flex-end;
+        align-self: flex-start;
     }
 
     .copyright {
-        justify-self: right;
+        justify-self: left;
+        margin: 0 14px;
     }
 }
