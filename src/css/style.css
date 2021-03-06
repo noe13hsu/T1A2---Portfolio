@@ -13,6 +13,8 @@ html, body {
 
 header {
   width: 250px;
+  display: flex;
+  justify-content: center;
 }
 
 #title {
@@ -61,6 +63,26 @@ color:#03588C;
 color:#741BF2;
 }
 
+.text-red {
+  color: #FF0012;
+}
+
+.text-yellow {
+  color: #F0DB4F;
+}
+
+.text-blue {
+  color:#2965f1;
+}
+
+.text-coder {
+  color: #3c94b4;
+}
+
+.text-academy {
+  color: #1c3c5c;
+}
+
 #logo {
   width: 4em;
 }
@@ -74,13 +96,14 @@ footer {
 #copyright {
 font-size: 10px;
 width: 250px;
-margin: 0;
+padding: 0 0 10px 0;
 align-self: flex-end;
 }
 
 .nav-bar {
   display: flex;
   width: 250px;
+  justify-content: center;
 }
 
 .nav-img {
@@ -94,14 +117,25 @@ align-self: flex-end;
   animation-duration: 0.5s;
 }
 
-.content-text, .content-video {
+.content-text {
+  padding-bottom: 16px;
+  margin-bottom: 4px;
   display: flex;
   justify-content: center;
+  border-bottom: 2px solid #9DC8C8;
+}
+
+.content-video {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #9DC8C8;
 }
 
 .side-bar {
   display: flex;
   width: 250px;
+  justify-content: center;
 }
 
 .aside-img {
@@ -127,6 +161,7 @@ align-self: flex-end;
 
 .text {
   width: 250px;
+  text-align: center;
 }
 
 .text-no-margin-bottom {
@@ -192,4 +227,38 @@ align-self: flex-end;
 #uparrow:hover {
   animation: bounce;
   animation-duration: 1s;
+}
+
+.blog-image {
+  width: 250px;
+  border: 2px solid #737373;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.blog-link {
+  text-decoration: none;
+  color: #737373;
+}
+
+.blog-title {
+  align-self: center;
+  margin-bottom: 25px;
+}
+
+.blog-post {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #9DC8C8;
+  border-right-style: none;
+  border-left-style: none;
+  margin-bottom: 4px;
+}
+
+figure {
+  margin: 1em 0;
 }

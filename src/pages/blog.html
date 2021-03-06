@@ -6,51 +6,97 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio N..</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="/src/css/grid.css">
         <link rel="stylesheet" href="/src/css/style.css">
-        <link rel="stylesheet" href="/src/css/grid2.css">
     </head>
 
     <body>
-        <main>
-            <header class="header">
-                <img class="logo" src="/src/images/Logo/favicon_navy/android-chrome-512x512.png" alt="logo">
-            </header>
-            
-            <nav class="nav-bar">
-                <a href="/src/pages/index.html"><img class="nav-img" src="/src/images/Nav/Home/android-chrome-192x192.png"></a>
-                <a href="/src/pages/portfolio.html"><img class="nav-img" src="/src/images/Nav/Portfolio/android-chrome-192x192.png"></a>
-                <a href="/src/pages/blog.html"><img class="nav-img" src="/src/images/Nav/Blog/android-chrome-192x192.png"></a>
-                <a href="/src/pages/contact.html"><img class="nav-img" src="/src/images/Nav/Contact/android-chrome-192x192.png"></a>
-            </nav>
-            
-            <article class="intro">
-                <h1 class="title">Blog.</h1>
-                <div id="web-dev">
-                    <span class="web-dev-1">I</span> 
-                    <span class="web-dev-2">a</span><span class="web-dev-3">m</span> 
-                    <span class="web-dev-4">a</span> 
-                    <span class="web-dev-5">w</span><span class="web-dev-6">e</span><span class="web-dev-7">b</span> 
-                    <span class="web-dev-1">d</span><span class="web-dev-2">e</span><span class="web-dev-3">v</span><span class="web-dev-4">e</span><span class="web-dev-5">l</span><span class="web-dev-6">o</span><span class="web-dev-7">p</span><span class="web-dev-1">e</span><span class="web-dev-2">r</span><span class="web-dev-3">.</span>
-                </div>
-                <p>My web developement journey has just started,</p>
-                <p>It has been full of challenges so far and I enjoy every bit of it!</p>
-                <p>In my spare time, I play PS4 and mobile games, and I also like animation.</p>
-                <p>Here are some animation tricks I have learned using HTML Canvas and JavaScript.</p>
-                <p>I look forward to creating more cool things on the web!</p>
-            </article>
-            
-            <aside class="side-bar">
-                <div>
-                    <a href="https://www.facebook.com/noe.hsu"><img class="aside-img" src="/src/images/Aside/logo-facebook.svg"></a>
-                    <a href="https://www.linkedin.com/in/noe-hsu-7828a4208/"><img class="aside-img" src="/src/images/Aside/logo-linkedin.svg"></a>
-                    <a href="https://github.com/noe13hsu"><img class="aside-img" src="/src/images/Aside/logo-github.svg"></a>
-                    <a href="https://codepen.io/noe13hsu"><img class="aside-img" src="/src/images/Aside/logo-codepen.svg"></a>
-                </div>
-            </aside>
+        <header>
+            <div>
+                <img id="logo" src="/src/images/Logo/favicon_navy/android-chrome-512x512.png" alt="logo">
+            </div>
+        </header>
+        
+        <nav class="nav-bar">
+            <div>
+                <a href="/src/pages/index.html" title="Home"><img class="nav-img" src="/src/images/Nav/Home/android-chrome-192x192.png"></a>
+                <a href="/src/pages/portfolio.html" title="Portfolio"><img class="nav-img" src="/src/images/Nav/Portfolio/android-chrome-192x192.png"></a>
+                <a href="/src/pages/blog.html" title="Blog"><img class="nav-img" src="/src/images/Nav/Blog/android-chrome-192x192.png"></a>
+                <a href="/src/pages/contact.html" title="Contact"><img class="nav-img" src="/src/images/Nav/Contact/android-chrome-192x192.png"></a>
+            </div>    
+        </nav>
+        
+        <section class="intro">
+            <div class="intro-text">
+                <h1 class="text" id="title">Blog.</h1>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dignissimos similique facere libero, est repellat, porro quidem consequuntur beatae, voluptate ut vero. Cumque illo impedit eum saepe quidem, maxime ipsum!</p><br>
+            </div>
+        </section>
 
-            <footer class="copyright">    
-                &copy; All rights reserved.
-            </footer>
+        <main>
+            <section class="blog-post">
+                <figure>
+                    <img class="blog-image" src="/src/images/blog/chris-ried-sqJ40H9RtNw-unsplash.jpg" alt="">
+                    <figcaption>20 May 2017 - Mountain</figcaption> 
+                </figure>
+                <div class="blog-title">
+                    <a class="blog-link" href="#"><p>Lorem ipsum</p></a>
+                </div>
+            </section>
+                
+            <section class="blog-post">
+                <figure>
+                    <img class="blog-image" src="/src/images/blog/florian-schonbrunner-RbsmG-l6GGI-unsplash.jpg" alt="">
+                    <figcaption>13 March 2020 - Mountain</figcaption> 
+                </figure>
+                <div class="blog-title">
+                    <a class="blog-link" href="#"><p>Lorem ipsum</p></a>
+                </div>
+            </section>
+
+            <section class="blog-post">
+                <figure>
+                    <img class="blog-image" src="/src/images/blog/iswanto-arif-xHhaFZb_ln0-unsplash.jpg" alt="">
+                    <figcaption>15 September 2004 - Beach</figcaption> 
+                </figure>
+                <div class="blog-title">
+                    <a class="blog-link" href="#"><p>Lorem ipsum</p></a>
+                </div>
+            </section>
+
+            <section class="blog-post">
+                <figure>
+                    <img class="blog-image" src="/src/images/blog/nelson-santos-jr-PuaIPFH3FHg-unsplash.jpg" alt="">
+                    <figcaption>26 November 2016 - Tree</figcaption> 
+                </figure>
+                <div class="blog-title">
+                    <a class="blog-link" href="#"><p>Lorem ipsum</p></a>
+                </div>
+            </section>
+
+            <section class="blog-post">
+                <figure>
+                    <img class="blog-image" src="/src/images/blog/stephen-walker-onIXxjH56AA-unsplash.jpg" alt="">
+                    <figcaption>15 July 2049 - Waterfall</figcaption> 
+                </figure>
+                <div class="blog-title">
+                    <a class="blog-link" href="#"><p>Lorem ipsum</p></a>
+                </div>
+            </section>
+            <br>
         </main>
+        
+        <aside class="side-bar">
+            <div>
+                <a href="https://www.facebook.com/noe.hsu" title="Facebook"><img class="aside-img" src="/src/images/Aside/logo-facebook.svg"></a>
+                <a href="https://www.linkedin.com/in/noe-hsu-7828a4208/" title="linkedin"><img class="aside-img" src="/src/images/Aside/logo-linkedin.svg"></a>
+                <a href="https://github.com/noe13hsu" title="GitHub"><img class="aside-img" src="/src/images/Aside/logo-github.svg"></a>
+                <a href="https://codepen.io/noe13hsu" title="CodePen"><img class="aside-img" src="/src/images/Aside/logo-codepen.svg"></a>
+            </div>
+        </aside>
+
+        <footer class="copyright text"> 
+            <p id="copyright">&copy; All rights reserved.</p>
+        </footer>
     </body>
 </html>
