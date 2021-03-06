@@ -1,7 +1,7 @@
 html, body {
-  margin: 0px;
+  margin: 5px 0;
   height: 100%;
-  font-family: Verdana, sans-serif;;
+  font-family: Verdana, sans-serif;
   font-size: 16px;
   background-color: #222A59;
   color: #F2F2F2;
@@ -11,11 +11,20 @@ html, body {
   background-color: #222A59;
 }
 
-.title {
+header {
+  width: 250px;
+}
+
+#title {
 color: #9DC8C8;
-font-size: 4em;
-margin-top: 1em;
+font-size: 2.5em;
 text-decoration: underline #737373;
+}
+
+.intro-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 #web-dev {
@@ -24,47 +33,60 @@ font-size: 3em;
 margin: 0;
 }
 
-.web-dev-1:hover {
+.red:hover {
 color:#FF0012;
 }
 
-.web-dev-2:hover {
-color:#FF7D00;
+.orange:hover {
+color:#F06529;
 }
 
-.web-dev-3:hover {
-color:#FFD900;
+.yellow:hover {
+color:#F0DB4F;
 }
 
-.web-dev-4:hover {
+.green:hover {
 color:#03A64A;
 }
 
-.web-dev-5:hover {
-color:#1788F2;
+.blue:hover {
+color:#2965f1;
 }
 
-.web-dev-6:hover {
+.indigo:hover {
 color:#03588C;
 }
 
-.web-dev-7:hover {
+.purple:hover {
 color:#741BF2;
 }
 
-.logo {
-  width: 7em;
+#logo {
+  width: 4em;
 }
 
-.copyright {
+footer {
+  margin-top: 20px;;
+  display: flex;
+  width: 250px;
+}
+
+#copyright {
 font-size: 10px;
-margin-left: 9.7em;
+width: 250px;
+margin: 0;
+align-self: flex-end;
+}
+
+.nav-bar {
+  display: flex;
+  width: 250px;
 }
 
 .nav-img {
-  margin: 8px 3px 8px 3px;
-  width: 3.5em;
-  height: 3.5em;
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
 }
 
 .nav-img:hover {
@@ -72,10 +94,20 @@ margin-left: 9.7em;
   animation-duration: 0.5s;
 }
 
+.content-text, .content-video {
+  display: flex;
+  justify-content: center;
+}
+
+.side-bar {
+  display: flex;
+  width: 250px;
+}
+
 .aside-img {
-  margin: 6px 3px;
-  width: 3.75em;
-  height: 3.75em;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
 }
 
 .aside-img:hover {
@@ -83,23 +115,22 @@ margin-left: 9.7em;
   animation-duration: 0.5s;
 }
 
-.youtuber {
+#animation-tricks, .youtuber, #noe {
   color: #9DC8C8;
   text-decoration: none;
 }
 
-.portfolio-video {
+.video {
   width: 250px; 
-  margin: 2em 0;
   border: 2px solid #737373;
 }
 
-.header {
-  margin: 1em 4em 0 4em;
+.text {
+  width: 250px;
 }
 
-.intro {
-  margin: 0 6em;
+.text-no-margin-bottom {
+  margin-bottom: 0;
 }
 
 #contactbutton {
@@ -110,90 +141,55 @@ margin-left: 9.7em;
   text-decoration: none;
   width: 8em;
   padding: 0.5em 0;
-  margin-top: 7.5em;
-  margin-left: 13.5em;
   text-align: center;
+  margin-top: 15px;
 }
 
 #contactbutton:hover {
   background-color: #9DC8C8;
 }
 
+#contactform {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.form-field {
+  display: flex;
+  justify-content: space-evenly;
+}
 .form-component {
-  margin: 3em 8em;
-  height: 1em;  
+  margin-top: 20px;
+  width: 250px;
 }
 
 .nameinput {
-  width: 10em;
+  width: 100px;
   height: 1.5em;
-  margin-right: 1em;
+  margin-top: 3px;
 }
 .longinput {
-  width: 22em;
+  width: 216px;
   height: 1.5em;
+  margin-top: 3px;
 }
 
 .textareainput{
-  width: 22em;
+  width: 216px;
   height: 10em;
-}
-
-#description1, #description2, #description3 {
-  margin: 1em 6em 4em 0;
+  margin-top: 3px;
 }
 
 #uparrow {
-  width: 100px;
+  width: 50px;
 }
 
 #uparrow:hover {
   animation: bounce;
   animation-duration: 1s;
-}
-
-@media screen and (min-width: 320px) and (max-width: 600px) {
-  .logo {
-    width: 4em;
-    margin-right: 1em;
-  }
-
-  .header {
-    margin: 1em 0;
-  }
-
-  .nav-img {
-    margin: 2px 14px 1em 0;
-    width: 2em;
-    height: 2em;
-  }
-
-  .aside-img {
-    margin: 6px 8px 6px 0;
-    width: 2.5em;
-    height: 2.5em;
-  }
-
-  .title {
-    font-size: 3em;
-    margin-top: 0;
-  }
-
-  .intro {
-    margin: 0;
-  }
-
-  .portfolio-video {
-    width: 250px; 
-    margin: 0;
-  }
-
-  #description1, #description2, #description3 {
-    margin: 0;
-  }
-
-  .copyright {
-    font-size: 6px;
-    margin: 3px 1em;
-    }
 }
