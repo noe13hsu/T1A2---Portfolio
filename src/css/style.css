@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ruda:wght@900&family=Russo+One&display=swap');
+
 body {
   margin: 5px 0;
   width: 100%;
@@ -12,25 +14,20 @@ header, nav, aside, main, footer {
   width: 80%;
 }
 
+.introduction, .main-content {
+  width: 100%;
+}
+
 h1 {
+  font-family: 'Fjalla One', sans-serif;
   margin: 10px;
   font-size: 2.5em;
 }
-
-/* fixed */
-
-/* #top {
-  background-color: #222A59;
-} */
-
-/* fixed */
 
 #text-title {
 color: #9DC8C8;
 text-decoration: underline #737373;
 }
-
-/* fixed */
 
 .text-color-grey {
 color: #737373;
@@ -73,12 +70,12 @@ color:#741BF2;
 }
 
 #copy-right {
-font-size: 10px;
+font-size: 0.65em;
 }
 
 .nav-img {
-  width: 37px;
-  height: 37px;
+  width: 40px;
+  height: 40px;
 }
 
 .nav-img:hover {
@@ -86,18 +83,18 @@ font-size: 10px;
   animation-duration: 0.5s;
 }
 
-.content-text {
-  padding-bottom: 16px;
-  margin-bottom: 4px;
-  border-bottom: 2px solid #9DC8C8;
-}
-
 .content-video {
+  width: 100%;
   padding-top: 16px;
   border-top: 2px solid #9DC8C8;
 }
 
-/* aside */
+.content-text {
+  width: 100%;
+  padding-bottom: 16px;
+  margin-bottom: 4px;
+  border-bottom: 2px solid #9DC8C8;
+}
 
 .aside-img {
   width: 40px;
@@ -108,8 +105,6 @@ font-size: 10px;
   animation: headShake;
   animation-duration: 0.5s;
 }
-
-/* fixed */
 
 #animation-tricks, .youtuber, #noe {
   color: #9DC8C8;
@@ -122,6 +117,7 @@ font-size: 10px;
 }
 
 #contact-form {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -176,10 +172,10 @@ font-size: 10px;
 }
 
 .blog-post {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   border: 2px solid #9DC8C8;
   border-right-style: none;
   border-left-style: none;
@@ -196,7 +192,7 @@ figure {
 }
 
 figcaption {
-  font-size: 12px;
+  font-size: 0.75em;
   font-style: italic;
 }
 
@@ -212,4 +208,60 @@ figcaption {
 
 .text-align-center {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  #logo {
+    width: 6em;
+  }
+
+  .nav-img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .aside-img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .name-input {
+    height: 2em;
+    margin-top: 5px;
+  }
+  .long-input {
+    height: 2em;
+    margin-top: 5px;
+  }
+  
+  .textarea-input{
+    height: 15em;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header, nav, aside, main, footer {
+    width: 100%;
+  }
+
+  .nav-img {
+    width: 100px;
+    height: 100px;
+    padding: 20px 15px 15px 30px;
+  }
+
+  .aside-img {
+    width: 100px;
+    height: 100px;
+    padding: 20px 30px 15px 15px;
+  }
 }
