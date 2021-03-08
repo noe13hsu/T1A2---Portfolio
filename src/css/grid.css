@@ -86,12 +86,25 @@ footer {
     }
 
     nav {
-        grid-template-rows: repeat(4, min-content);
+        grid-template-rows: repeat(4, min-content) 1fr;
         grid-template-columns: 150px;
     }
 
     aside {
-        grid-template-rows: repeat(4, min-content);
+        grid-template-rows: repeat(4, min-content) 1fr;
         grid-template-columns: 150px;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        grid-row-gap: 30px;
+        grid-template-rows: repeat(3, min-content);
+        grid-template-columns: 1fr min-content 480px min-content 1fr;
+        grid-column-gap: 120px;
+        grid-template-areas: 
+        ". nav header aside ."
+        ". nav main   aside ."
+        ". .   footer .     ."
     }
 }

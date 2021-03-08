@@ -210,6 +210,12 @@ figcaption {
   text-align: center;
 }
 
+.vertical-line {
+  width: 4%;
+  background-color: #9DC8C8;
+  margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   body {
     font-size: 28px;
@@ -256,13 +262,13 @@ figcaption {
   .nav-img {
     width: 100px;
     height: 100px;
-    padding: 20px 15px 15px 30px;
+    padding: 20px 15px 15px 15px;
   }
 
   .aside-img {
     width: 100px;
     height: 100px;
-    padding: 20px 30px 15px 15px;
+    padding: 20px 15px 15px 15px;
   }
 
   #send-button {
