@@ -24,7 +24,7 @@ h1 {
   font-size: 2.5em;
 }
 
-#text-title {
+.text-title {
 color: #8ce1eb;
 text-decoration: underline #737373;
 }
@@ -217,20 +217,21 @@ figcaption {
 .vertical-line {
   width: 4%;
   background-color: #8ce1eb;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 @media (min-width: 768px) {
   body {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   h2 {
     font-size: 2.5em;
+    margin: 15
   }
 
   #logo {
@@ -270,13 +271,29 @@ figcaption {
   .nav-img {
     width: 80px;
     height: 80px;
-    padding: 20px 15px 15px 15px;
+    padding: 15px;
+  }
+
+  #about {
+    padding-top: 30px;
+  }
+
+  #contact {
+    padding-bottom: 30px;;
   }
 
   .aside-img {
     width: 80px;
     height: 80px;
-    padding: 20px 15px 15px 15px;
+    padding: 15px;
+  }
+
+  #facebook {
+    padding-top: 30px;
+  }
+
+  #codepen {
+    padding-bottom: 30px;
   }
 
   #send-button {

@@ -82,7 +82,7 @@ footer {
         grid-template-areas: 
         "nav header aside"
         "nav main   aside"
-        ".   footer .    "
+        "nav footer aside    "
     }
 
     nav {
