@@ -25,7 +25,7 @@ h1 {
 }
 
 #text-title {
-color: #9DC8C8;
+color: #8ce1eb;
 text-decoration: underline #737373;
 }
 
@@ -107,7 +107,7 @@ font-size: 0.65em;
 }
 
 #animation-tricks, .youtuber, #noe {
-  color: #9DC8C8;
+  color: #8ce1eb;
   text-decoration: none;
 }
 
@@ -168,7 +168,7 @@ font-size: 0.65em;
 }
 
 #send-button:hover {
-  background-color: #9DC8C8;
+  background-color: #8ce1eb;
 }
 
 .blog-post {
@@ -176,7 +176,7 @@ font-size: 0.65em;
   margin: 0 auto;
   /* display: flex;
   flex-direction: column; */
-  border: 2px solid #9DC8C8;
+  border: 2px solid #8ce1eb;
   border-right-style: none;
   border-left-style: none;
   margin-bottom: 4px;
@@ -206,13 +206,17 @@ figcaption {
   color: #737373;
 }
 
+.blog-link:hover {
+  color: #8ce1eb
+}
+
 .text-align-center {
   text-align: center;
 }
 
 .vertical-line {
   width: 4%;
-  background-color: #9DC8C8;
+  background-color: #8ce1eb;
   margin: 0 auto;
 }
 
@@ -223,6 +227,10 @@ figcaption {
 
   h1 {
     font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2.5em;
   }
 
   #logo {
@@ -260,14 +268,14 @@ figcaption {
   }
 
   .nav-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     padding: 20px 15px 15px 15px;
   }
 
   .aside-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     padding: 20px 15px 15px 15px;
   }
 
