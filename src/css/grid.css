@@ -1,7 +1,7 @@
 body {
     display: grid;
     gap: 12px;
-    grid-template-rows: 90px min-content minmax(300px, 1fr) min-content min-content;
+    grid-template-rows: 90px 75px minmax(300px, 1fr) 75px min-content;
     grid-template-areas: 
     "header"
     "nav"
@@ -72,10 +72,11 @@ footer {
 @media (min-width: 576px) {
     body {
         gap: 20px;
-        grid-template-rows: min-content min-content minmax(350px, 1fr) min-content min-content;
+        grid-template-rows: 150px 115px minmax(350px, 1fr) 115px 120px;
     }
     #name-field-set {
         grid-column-gap: 20px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -108,12 +109,13 @@ footer {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1450px) {
     body {
         grid-row-gap: 30px;
-        grid-template-rows: 170px minmax(550px, min-content) 50px;
+        grid-template-rows: 170px minmax(75%, 1fr) 50px;
         grid-template-columns: 100px min-content 1fr min-content 100px;
         grid-column-gap: 80px;
+        grid-row-gap: 40px;
         grid-template-areas: 
         ". nav  header aside ."
         ". nav  main   aside ."

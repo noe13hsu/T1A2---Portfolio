@@ -20,7 +20,15 @@ h1 {
   font-size: 2.5em;
 }
 
+#margin-dev {
+  margin-top: 30px;
+}
+
 /* -----color----- */
+.noe, .youtuber {
+  text-decoration: none;
+  color: #8ce1eb;
+}
 
 .text-title {
 color: #8ce1eb;
@@ -79,7 +87,7 @@ color:#741BF2;
   color: #00758F;
 }
 
-#text-color-html, #text-color-css, #text-color-react, #text-color-js, #text-color-mysql {
+#text-color-html, #text-color-css, #text-color-react, #text-color-js, #text-color-mysql, #text-color-rails, #text-color-ruby {
   text-decoration: none;
 }
 
@@ -128,6 +136,7 @@ font-size: 0.65em;
 
 /* ----aside---- */
 .aside-img {
+  margin-top: 30px;
   width: 50px;
   height: 50px;
 }
@@ -137,15 +146,9 @@ font-size: 0.65em;
   animation-duration: 0.5s;
 }
 
-.vertical-line {
-  width: 4%;
-  background-color: #8ce1eb;
-  margin: 0 auto 30px auto;
-}
 /* ----contact form---- */
 
 #contact-form {
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -165,7 +168,7 @@ input {
 
 .form-component {
   margin-top: 20px;
-  width: 80%;
+  width: 280px; /* adjust input field width */
   align-self: center;
 }
 
@@ -291,19 +294,20 @@ figcaption {
 
 .coding-skills1 {
   animation: flash;
-  animation-duration: 2s;
-}
-
-.coding-skills2 {
-  animation: flash;
   animation-duration: 1.75s;
   animation-delay: 0.25s;
 }
 
-.coding-skills3 {
+.coding-skills2 {
   animation: flash;
   animation-duration: 1.5s;
   animation-delay: 0.5s;
+}
+
+.coding-skills3 {
+  animation: flash;
+  animation-duration: 1.25s;
+  animation-delay: 0.75s;
 }
 
 #theme-mysql {
@@ -348,6 +352,10 @@ figcaption {
     margin: 15px;
   }
 
+  #margin-dev {
+    margin-top: 0px;
+  }
+
   #logo {
     width: 6em;
   }
@@ -358,6 +366,7 @@ figcaption {
   }
 
   .aside-img {
+    margin-top: 0;
     width: 80px;
     height: 80px;
   }
@@ -380,11 +389,19 @@ figcaption {
   .about-img {
     height: 20px;
   }
+  
+  .form-component {
+    width: 70%;
+  }
 }
 
 @media (min-width: 1024px) {
   header, nav, aside, main, footer {
     width: 100%;
+  }
+
+  #margin-dev {
+    margin: 30px 0 70px 0;
   }
 
   .nav-img {
@@ -434,5 +451,21 @@ figcaption {
 
   .about-img {
     height: 23px;
+  }
+
+  .vertical-line {
+    width: 4%;
+    background-color: #8ce1eb;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (min-width: 1450px) {
+  .form-component {
+    width: 50%;
+  }
+
+  #margin-dev {
+    margin: 70px 0 120px 0;
   }
 }
