@@ -75,10 +75,6 @@ color:#03588C;
 color:#741BF2;
 }
 
-#text-color-coder-academy {
-  color: #3c94b4;
-}
-
 #text-color-react {
   color:#61DBFB
 }
@@ -172,14 +168,12 @@ input {
   align-self: center;
 }
 
-#field-separator {
-  width: 20px;
-}
-
 .name-input {
   width: 100%;
   height: 1.5em;
   margin-top: 3px;
+  border: none;
+  background-color: #e3f8fa;
 }
 
 .name-label {
@@ -192,17 +186,21 @@ textarea {
   padding-left: 0;
   border-right-width: 2px;
   border-left-width: 2px;
+  background-color: #e3f8fa;
 }
 .long-input {
   width: 100%;
   height: 1.5em;
   margin-top: 3px;
+  border: none;
+  background-color: #e3f8fa;
 }
 
 .textarea-input{
   width: 100%;
   height: 10em;
   margin-top: 3px;
+  border: none;
 }
 
 .form-button {

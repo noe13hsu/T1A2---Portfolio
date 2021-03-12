@@ -62,12 +62,16 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, min-content);
-    grid-column-gap: 5px;
+    grid-column-gap: 5%;
 }
 
 .name-label {
     justify-self: end;
 }
+
+/* #last-name {
+    justify-self: end;
+} */
 
 @media (min-width: 576px) {
     body {
