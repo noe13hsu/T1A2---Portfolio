@@ -353,22 +353,26 @@ figcaption {
   #margin-dev {
     margin-top: 0px;
   }
-
+  
+  /* logo */
   #logo {
     width: 6em;
   }
 
+  /* nav icons */
   .nav-img {
     width: 80px;
     height: 80px;
   }
 
+  /* aside icons */
   .aside-img {
     margin-top: 0;
     width: 80px;
     height: 80px;
   }
-
+  
+  /* form fields */
   .name-input {
     height: 2em;
     margin-top: 5px;
@@ -384,16 +388,18 @@ figcaption {
     margin-top: 5px;
   }
 
-  .about-img {
-    height: 20px;
-  }
-  
   .form-component {
     width: 70%;
+  }
+
+  /* icons in about page */
+  .about-img {
+    height: 20px;
   }
 }
 
 @media (min-width: 1024px) {
+  /* margin and padding */
   header, nav, aside, main, footer {
     width: 100%;
   }

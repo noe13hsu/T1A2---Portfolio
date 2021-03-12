@@ -11,6 +11,7 @@ body {
     justify-items: center;
 }
 
+/* header */
 header {
     grid-area: header;
     display: grid;
@@ -21,6 +22,7 @@ header {
     align-self: center;
 }
 
+/* nav */
 nav {
     grid-area: nav;
     display: grid;
@@ -31,6 +33,7 @@ nav {
     justify-self: center;
 }
 
+/* main */
 main {
     grid-area: main;
 }
@@ -39,6 +42,7 @@ main {
     display: grid;
 }
 
+/* aside */
 aside {
     grid-area: aside;
     display: grid;
@@ -49,6 +53,7 @@ aside {
     justify-self: center;
 }
 
+/* footer */
 footer {
     grid-area: footer;
     display: grid;
@@ -58,6 +63,7 @@ footer {
     justify-self: center;
 }
 
+/* contact form */
 #name-field-set {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -69,17 +75,10 @@ footer {
     justify-self: end;
 }
 
-/* #last-name {
-    justify-self: end;
-} */
-
 @media (min-width: 576px) {
     body {
         gap: 20px;
         grid-template-rows: 150px 115px minmax(350px, 1fr) 115px 120px;
-    }
-    #name-field-set {
-        grid-column-gap: 20px;
     }
 }
 
