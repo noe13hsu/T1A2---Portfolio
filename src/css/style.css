@@ -290,6 +290,20 @@ figcaption {
   margin: 7px 5px;
 }
 
+#my-cv {
+  background-color: #26c6da;
+  display: inline-block;
+  padding: 4px 8px;
+  border: 3px solid #8ce1eb;
+  border-radius: 8px;
+  margin: 7px 5px;
+}
+
+#download-cv {
+  color: #e3f8fa;
+  text-decoration: none;
+}
+
 .coding-skills1 {
   animation: flash;
   animation-duration: 1.75s;
