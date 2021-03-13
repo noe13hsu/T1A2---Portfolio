@@ -14,6 +14,10 @@ header, nav, aside, main, footer {
   width: 80%;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Fjalla One', sans-serif;
   margin: 10px;
@@ -26,7 +30,6 @@ h1 {
 
 /* -----color----- */
 .noe, .youtuber {
-  text-decoration: none;
   color: #8ce1eb;
 }
 
@@ -81,10 +84,6 @@ color:#741BF2;
 
 #text-color-mysql {
   color: #00758F;
-}
-
-#text-color-html, #text-color-css, #text-color-react, #text-color-js, #text-color-mysql, #text-color-rails, #text-color-ruby {
-  text-decoration: none;
 }
 
 /* ----header---- */
@@ -218,7 +217,6 @@ textarea {
   border: 1px solid #8ce1eb;
   border-radius: 2px;
   font-size: 1em;
-  text-decoration: none;
   width: 8em;
   padding: 0.5em 0;
   text-align: center;
@@ -259,7 +257,6 @@ figcaption {
 }
 
 .blog-link {
-  text-decoration: none;
   color: #e3f8fa;
 }
 
@@ -290,7 +287,7 @@ figcaption {
   margin: 7px 5px;
 }
 
-#my-cv {
+.my-cv {
   background-color: #26c6da;
   display: inline-block;
   padding: 4px 8px;
@@ -301,7 +298,6 @@ figcaption {
 
 #download-cv {
   color: #e3f8fa;
-  text-decoration: none;
 }
 
 .coding-skills1 {
