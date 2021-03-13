@@ -1,13 +1,13 @@
 # T1A2---Portfolio
 
-- URL to my published portfolio website:
+### URL to my published portfolio website:
     https://profolion.azurewebsites.net
 
-- Link to my GitHub repo:
+### Link to my GitHub repo:
     https://github.com/noe13hsu/T1A2---Portfolio
 
 
-- Description of my portfolio website:
+### Description of my portfolio website:
     - Purpose: The goal of this portfolio website is for potential employers and partners to know what skills I have and what projects I have done and for them to contact or connect with me.
 
     - Functionality:
@@ -20,6 +20,7 @@
         7. Purpose of blog.html is to show some of my interests and daily life.
 
     - Sitemap: 
+    ![sitemap](/images/sitemap/sitemap.png)
 
     - Screenshots:
 
