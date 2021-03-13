@@ -20,8 +20,8 @@
         7. Purpose of blog.html is to show some of my interests and daily life.
 
     - Sitemap: 
-    ![sitemap](/images/sitemap/sitemap.png)
-
+        ![sitemap](https://github.com/noe13hsu/T1A2---Portfolio/raw/main/src/images/sitemap/sitemap.png)
+  
     - Screenshots:
 
     - Target audience: Any potential employers and partners.
