@@ -19,8 +19,8 @@
         6. short videos in portfolio.html to view the projects I have done.
         7. Purpose of blog.html is to show some of my interests and daily life.
 
-    - Sitemap: 
-        ![sitemap](https://github.com/noe13hsu/T1A2---Portfolio/raw/main/src/images/sitemap/sitemap.png)
+    - Site map: 
+        ![Site Map](https://github.com/noe13hsu/T1A2---Portfolio/raw/main/src/images/sitemap/sitemap.png)
   
     - Screenshots:
 
