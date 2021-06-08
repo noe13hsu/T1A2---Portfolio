@@ -14,6 +14,10 @@ header, nav, aside, main, footer {
   width: 80%;
 }
 
+main {
+  padding-bottom: 30px;
+}
+
 a {
   text-decoration: none;
 }
@@ -22,6 +26,16 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
   margin: 10px;
   font-size: 2.5em;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #margin-dev {
@@ -33,49 +47,57 @@ h1 {
   color: #8ce1eb;
 }
 
+.portfolio-title {
+  color: #8ce1eb;
+}
+
+.portfolio-title:hover {
+  color: #26c6da;
+}
+
 .text-title {
-color: #8ce1eb;
-text-decoration: underline #737373;
+  color: #8ce1eb;
+  text-decoration: underline #737373;
 }
 
 .text-color-grey {
-color: #737373;
+  color: #737373;
 }
 
 .text-color-red, .text-color-red-hover:hover {
-color:#ce0715;
+  color:#ce0715;
 }
 
-#text-color-html, #text-color-ruby, #text-color-rails {
+#text-color-html, #text-color-ruby, #text-color-rails, #text-color-heroku {
   color: #ebebeb;
 } 
 
 .text-color-orange-hover:hover {
-color:#F06529;
+  color:#F06529;
 }
 
 #text-color-js, .text-color-yellow, .text-color-yellow-hover:hover {
-color:#F0DB4F;
+  color:#F0DB4F;
 }
 
 .text-color-green-hover:hover {
-color:#03A64A;
+  color:#03A64A;
 }
 
 .text-color-blue, .text-color-blue-hover:hover {
-color:#1952d8;
+  color:#1952d8;
 }
 
 #text-color-css {
-  color: #ebebeb
+  color: #ebebeb;
 } 
 
 .text-color-indigo-hover:hover {
-color:#03588C;
+  color:#03588C;
 }
 
 .text-color-purple-hover:hover {
-color:#741BF2;
+  color:#741BF2;
 }
 
 #text-color-react {
@@ -83,7 +105,7 @@ color:#741BF2;
 }
 
 #text-color-mysql {
-  color: #F29111;
+  color: #ebebeb;
 }
 
 /* ----header---- */
@@ -95,7 +117,7 @@ color:#741BF2;
 /* ----footer---- */
 
 #copy-right {
-font-size: 0.65em;
+  font-size: 0.65em;
 }
 
 /* ----nav---- */
@@ -107,6 +129,12 @@ font-size: 0.65em;
 .nav-img:hover {
   animation: headShake;
   animation-duration: 0.5s;
+}
+
+/* ----portfolio section---- */
+.section-background {
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* ----portfolio video---- */
@@ -121,12 +149,23 @@ font-size: 0.65em;
   border: 2px solid #e3f8fa;
 }
 
+/* ----portfolio image---- */
+.content-image {
+  width: 99%;
+  border: 2px solid #e3f8fa;
+} 
+
 /* ----portfolio text---- */
 .content-text {
   width: 100%;
   padding-bottom: 16px;
   margin-bottom: 4px;
   border-bottom: 2px solid #9DC8C8;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  padding-bottom: 16px;
 }
 
 /* ----aside---- */
@@ -257,7 +296,7 @@ figcaption {
 }
 
 .blog-link {
-  color: #e3f8fa;
+  color: #8ce1eb;
 }
 
 .blog-link:hover {
@@ -319,7 +358,11 @@ figcaption {
 }
 
 #theme-mysql {
-  background-color: #00758F;
+  background-color: #32648d;
+}
+
+#theme-heroku {
+  background-color: #6f4c98;
 }
 
 #theme-html {
@@ -343,7 +386,7 @@ figcaption {
 }
 
 .about-img {
-  height: 15px;
+  height: 20px;
 }
 
 @media (min-width: 576px) {
@@ -355,8 +398,8 @@ figcaption {
     font-size: 3.5em;
   }
 
-  h2 {
-    font-size: 2.5em;
+  h3 {
+    font-size: 1.5em;
     margin: 15px;
   }
 
@@ -404,7 +447,12 @@ figcaption {
 
   /* icons in about page */
   .about-img {
-    height: 20px;
+    height: 18px;
+  }
+
+  .portfolio-text {
+    font-size: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -464,7 +512,7 @@ figcaption {
   }
 
   .about-img {
-    height: 23px;
+    height: 24px;
   }
 
   .vertical-line {
