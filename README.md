@@ -21,32 +21,32 @@ https://github.com/noe13hsu/T1A2---Portfolio
 
 * Site map:
   
-    ![Site Map](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/sitemap.png)
+    ![Site Map](./src/docs/sitemap.png)
   
 * Screenshots:
   
-    ![Laptop - Home](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Laptop%20-%20Home.png)
+    ![Laptop - Home](./src/docs/Screenshot/Laptop%20-%20Home.png)
 
-    ![Laptop - About](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Laptop%20-%20About.png)
+    ![Laptop - About](./src/docs/Screenshot/Laptop%20-%20About.png)
 
-    ![Laptop - Portfolio](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Laptop%20-%20Portfolio.png)
+    ![Laptop - Portfolio](./src/docs/Screenshot/Laptop%20-%20Portfolio.png)
 
-    ![Laptop - Blog](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Laptop%20-%20Blog.png)
+    ![Laptop - Blog](./src/docs/Screenshot/Laptop%20-%20Blog.png)
 
-    ![Laptop - Contact](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Laptop%20-%20Contact.png)
+    ![Laptop - Contact](./src/docs/Screenshot/Laptop%20-%20Contact.png)
 
-    ![Mobile - Home](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Mobile%20-%20Home.png)
+    ![Mobile - Home](./src/docs/Screenshot/Mobile%20-%20Home.png)
 
-    ![Mobile - About](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Mobile%20-%20About.png)
+    ![Mobile - About](./src/docs/Screenshot/Mobile%20-%20About.png)
 
-    ![Mobile - Portfolio](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Mobile%20-%20Portfolio.png)
+    ![Mobile - Portfolio](./src/docs/Screenshot/Mobile%20-%20Portfolio.png)
 
-    ![Mobile - Blog](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Mobile%20-%20Blog.png)
+    ![Mobile - Blog](./src/docs/Screenshot/Mobile%20-%20Blog.png)
 
-    ![Mobile - Contact](https://github.com/noe13hsu/T1A2---Portfolio/blob/main/docs/Screenshot/Mobile%20-%20Contact.png)
+    ![Mobile - Contact](./src/docs/Screenshot/Mobile%20-%20Contact.png)
 
 
 
 * Target audience: Any potential employers and partners.
 
-* Tech stack: HTML, CSS, Animate.css, Microsoft Azure for deployment. 
+* Tech stack: HTML, CSS, Animate.css. 
